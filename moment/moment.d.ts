@@ -28,7 +28,7 @@ interface MomentInput {
 
 interface Duration {
 
-    humanize(): string;
+    humanize(includeSuffix?: boolean): string;
 
     milliseconds(): number;
     asMilliseconds(): number;
